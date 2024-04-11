@@ -1,0 +1,21 @@
+export declare const clamp: (value: number, min: number, max: number) => number;
+export declare const degrees: (radians: number) => number;
+export declare const mix: (x0: number, x1: number, a: number) => number;
+export declare const radians: (degrees: number) => number;
+export declare const randomArbitrary: (min: number, max: number) => number;
+export declare const randomInt: (min: number, max: number) => number;
+export declare const smoothstep: (e0: number, e1: number, x: number) => number;
+export declare const spherical: (radian1: number, radian2: number, radius: number) => [number, number, number];
+export declare const step: (e: number, x: number) => number;
+declare const _default: {
+    clamp: (value: number, min: number, max: number) => number;
+    degrees: (radians: number) => number;
+    mix: (x0: number, x1: number, a: number) => number;
+    radians: (degrees: number) => number;
+    randomArbitrary: (min: number, max: number) => number;
+    randomInt: (min: number, max: number) => number;
+    smoothstep: (e0: number, e1: number, x: number) => number;
+    spherical: (radian1: number, radian2: number, radius: number) => [number, number, number];
+    step: (e: number, x: number) => number;
+};
+export default _default;

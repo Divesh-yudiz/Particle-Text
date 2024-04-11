@@ -1,0 +1,27 @@
+{
+  "name": "@ykob/glsl-util",
+  "version": "1.1.0",
+  "description": "Private GLSL utility functions created by @ykob",
+  "author": {
+    "name": "Yoichi Kobayashi",
+    "email": "info@tplh.net",
+    "url": "https://www.tplh.net/"
+  },
+  "browserify": {
+    "transform": "glslify"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ykob/glsl-util.git"
+  },
+  "keywords": [
+    "glsl",
+    "glslify"
+  ]
+}
